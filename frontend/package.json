@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "1.0.0",
+  "homepage": "https://narayanan-hub6078.github.io/NARAYAN-EDUCATIONAL-HUB",
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
