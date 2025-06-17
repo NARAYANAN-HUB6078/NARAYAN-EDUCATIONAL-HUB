@@ -1,10 +1,18 @@
 {
   "files": {
+<<<<<<< HEAD
+    "main.css": "/static/css/main.61e399ef.css",
+    "main.js": "/static/js/main.abf9129d.js",
+    "index.html": "/index.html",
+    "main.61e399ef.css.map": "/static/css/main.61e399ef.css.map",
+    "main.abf9129d.js.map": "/static/js/main.abf9129d.js.map"
+=======
     "main.css": "/NARAYAN-EDUCATIONAL-HUB/static/css/main.61e399ef.css",
     "main.js": "/NARAYAN-EDUCATIONAL-HUB/static/js/main.abf9129d.js",
     "index.html": "/NARAYAN-EDUCATIONAL-HUB/index.html",
     "main.61e399ef.css.map": "/NARAYAN-EDUCATIONAL-HUB/static/css/main.61e399ef.css.map",
     "main.abf9129d.js.map": "/NARAYAN-EDUCATIONAL-HUB/static/js/main.abf9129d.js.map"
+>>>>>>> e13d57065d325421ece467a84c75d4aa8c989391
   },
   "entrypoints": [
     "static/css/main.61e399ef.css",
