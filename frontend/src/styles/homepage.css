@@ -1,0 +1,142 @@
+/* HomePage Styles - Responsive, Modern, and Clean */
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ec4899, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.18);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hover-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 16px 40px 0 rgba(236, 72, 153, 0.15);
+}
+
+.card-3d {
+  perspective: 1000px;
+}
+
+.glow-border {
+  border: 2px solid #f3e8ff;
+  box-shadow: 0 0 16px 2px #f3e8ff;
+}
+
+.team-photo {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.team-teacher-card {
+  min-width: 260px;
+}
+
+.modern-contact-section {
+  background: linear-gradient(135deg, #fce7f3 0%, #ede9fe 50%, #fff 100%);
+}
+
+.modern-contact-card {
+  box-shadow: 0 8px 32px 0 rgba(168, 85, 247, 0.08);
+}
+
+.modern-contact-title {
+  letter-spacing: -1px;
+}
+
+.modern-contact-form .modern-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  font-size: 1.125rem;
+  transition: border 0.2s;
+}
+
+.modern-contact-form .modern-input:focus {
+  border-color: #a78bfa;
+  outline: none;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #ec4899, #8b5cf6);
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  box-shadow: 0 4px 16px 0 rgba(236, 72, 153, 0.15);
+}
+
+footer {
+  font-size: 1rem;
+}
+
+.disclaimer-box {
+  background: rgba(31, 41, 55, 0.7);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.08);
+}
+
+@media (max-width: 1024px) {
+  .section-container {
+    padding: 0 0.5rem;
+  }
+  .grid-cols-2, .md\:grid-cols-2 {
+    grid-template-columns: 1fr !important;
+  }
+  .grid-cols-3, .md\:grid-cols-3 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .py-24 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .text-4xl {
+    font-size: 2rem;
+  }
+  .text-5xl {
+    font-size: 2.5rem;
+  }
+  .team-photo {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-container {
+    padding: 0 0.25rem;
+  }
+  .p-8, .p-10, .p-6 {
+    padding: 1rem !important;
+  }
+  .rounded-2xl, .rounded-3xl {
+    border-radius: 1rem !important;
+  }
+}
